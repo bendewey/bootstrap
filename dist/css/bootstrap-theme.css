@@ -204,12 +204,12 @@
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  background-image: -webkit-linear-gradient(top, #2a8dd4 0%, #267fbf 100%);
-  background-image: -o-linear-gradient(top, #2a8dd4 0%, #267fbf 100%);
-  background-image: linear-gradient(to bottom, #2a8dd4 0%, #267fbf 100%);
+  background-image: -webkit-linear-gradient(top, #54a4dd 0%, #3f98d9 100%);
+  background-image: -o-linear-gradient(top, #54a4dd 0%, #3f98d9 100%);
+  background-image: linear-gradient(to bottom, #54a4dd 0%, #3f98d9 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2a8dd4', endColorstr='#ff267fbf', GradientType=0);
-  background-color: #267fbf;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54a4dd', endColorstr='#ff3f98d9', GradientType=0);
+  background-color: #3f98d9;
 }
 .navbar-default {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
@@ -268,11 +268,11 @@
   .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-image: -webkit-linear-gradient(top, #2a8dd4 0%, #267fbf 100%);
-    background-image: -o-linear-gradient(top, #2a8dd4 0%, #267fbf 100%);
-    background-image: linear-gradient(to bottom, #2a8dd4 0%, #267fbf 100%);
+    background-image: -webkit-linear-gradient(top, #54a4dd 0%, #3f98d9 100%);
+    background-image: -o-linear-gradient(top, #54a4dd 0%, #3f98d9 100%);
+    background-image: linear-gradient(to bottom, #54a4dd 0%, #3f98d9 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2a8dd4', endColorstr='#ff267fbf', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54a4dd', endColorstr='#ff3f98d9', GradientType=0);
   }
 }
 .alert {
@@ -367,13 +367,13 @@
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #2271a9;
-  background-image: -webkit-linear-gradient(top, #2a8dd4 0%, #2478b4 100%);
-  background-image: -o-linear-gradient(top, #2a8dd4 0%, #2478b4 100%);
-  background-image: linear-gradient(to bottom, #2a8dd4 0%, #2478b4 100%);
+  text-shadow: 0 -1px 0 #2a8dd4;
+  background-image: -webkit-linear-gradient(top, #54a4dd 0%, #3493d7 100%);
+  background-image: -o-linear-gradient(top, #54a4dd 0%, #3493d7 100%);
+  background-image: linear-gradient(to bottom, #54a4dd 0%, #3493d7 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2a8dd4', endColorstr='#ff2478b4', GradientType=0);
-  border-color: #2478b4;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff54a4dd', endColorstr='#ff3493d7', GradientType=0);
+  border-color: #3493d7;
 }
 .list-group-item.active .badge,
 .list-group-item.active:hover .badge,

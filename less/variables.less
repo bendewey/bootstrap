@@ -42,7 +42,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -65,8 +65,8 @@
 @line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
-@headings-font-family:    inherit;
-@headings-font-weight:    500;
+@headings-font-family:    "Segoe UI Light", inherit;
+@headings-font-weight:    200;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 
@@ -109,7 +109,7 @@
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
 //** Global background color for active items (e.g., navs or dropdowns).
-@component-active-bg:       @brand-primary;
+@component-active-bg:       lighten(@brand-primary, 10%);
 
 //** Width of the `border` for generating carets that indicator dropdowns.
 @caret-width-base:          4px;
@@ -195,7 +195,7 @@
 @input-border-radius-small:      @border-radius-small;
 
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             #bbd5e9;
 
 //** Placeholder text color
 @input-color-placeholder:        #999;
@@ -764,7 +764,7 @@
 @badge-bg:                    @gray-light;
 
 //** Badge text color in active nav link
-@badge-active-color:          @link-color;
+@badge-active-color:          lighten(@brand-primary, 10%);
 //** Badge background color in active nav link
 @badge-active-bg:             #fff;
 

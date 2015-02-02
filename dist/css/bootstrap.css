@@ -1072,7 +1072,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1171,8 +1171,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
-  font-weight: 500;
+  font-family: "Segoe UI Light", inherit;
+  font-weight: 200;
   line-height: 1.1;
   color: inherit;
 }
@@ -2542,10 +2542,10 @@ output {
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 .form-control:focus {
-  border-color: #66afe9;
+  border-color: #bbd5e9;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(187, 213, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(187, 213, 233, 0.6);
 }
 .form-control::-moz-placeholder {
   color: #999999;
@@ -3452,7 +3452,7 @@ tbody.collapse.in {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #2a8dd4;
+  background-color: #54a4dd;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -3971,7 +3971,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #2a8dd4;
+  background-color: #54a4dd;
 }
 .nav-stacked > li {
   float: none;
@@ -4477,6 +4477,52 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-text {
   color: #ffffff;
 }
+.navbar-inverse .navbar-btn {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #7ebae6;
+  font-weight: normal;
+}
+.navbar-inverse .navbar-btn:hover,
+.navbar-inverse .navbar-btn:focus,
+.navbar-inverse .navbar-btn.focus,
+.navbar-inverse .navbar-btn:active,
+.navbar-inverse .navbar-btn.active,
+.open > .dropdown-toggle.navbar-inverse .navbar-btn {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #4b9fdb;
+}
+.navbar-inverse .navbar-btn:active,
+.navbar-inverse .navbar-btn.active,
+.open > .dropdown-toggle.navbar-inverse .navbar-btn {
+  background-image: none;
+}
+.navbar-inverse .navbar-btn.disabled,
+.navbar-inverse .navbar-btn[disabled],
+fieldset[disabled] .navbar-inverse .navbar-btn,
+.navbar-inverse .navbar-btn.disabled:hover,
+.navbar-inverse .navbar-btn[disabled]:hover,
+fieldset[disabled] .navbar-inverse .navbar-btn:hover,
+.navbar-inverse .navbar-btn.disabled:focus,
+.navbar-inverse .navbar-btn[disabled]:focus,
+fieldset[disabled] .navbar-inverse .navbar-btn:focus,
+.navbar-inverse .navbar-btn.disabled.focus,
+.navbar-inverse .navbar-btn[disabled].focus,
+fieldset[disabled] .navbar-inverse .navbar-btn.focus,
+.navbar-inverse .navbar-btn.disabled:active,
+.navbar-inverse .navbar-btn[disabled]:active,
+fieldset[disabled] .navbar-inverse .navbar-btn:active,
+.navbar-inverse .navbar-btn.disabled.active,
+.navbar-inverse .navbar-btn[disabled].active,
+fieldset[disabled] .navbar-inverse .navbar-btn.active {
+  background-color: transparent;
+  border-color: #7ebae6;
+}
+.navbar-inverse .navbar-btn .badge {
+  color: transparent;
+  background-color: #ffffff;
+}
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
 }
@@ -4814,7 +4860,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #2a8dd4;
+  color: #54a4dd;
   background-color: #ffffff;
 }
 .list-group-item > .badge {
@@ -5151,8 +5197,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #2a8dd4;
-  border-color: #2a8dd4;
+  background-color: #54a4dd;
+  border-color: #54a4dd;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -5168,7 +5214,7 @@ a.list-group-item:focus {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #d4e8f6;
+  color: #feffff;
 }
 .list-group-item-success {
   color: #3c763d;
@@ -5805,7 +5851,7 @@ button.close {
   z-index: 1070;
   display: block;
   visibility: visible;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5912,7 +5958,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
